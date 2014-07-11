@@ -47,23 +47,9 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 
 </dependency>
 
-<dependency>
 
-<groupId>org.disney.dosqa.shared</groupId>
 
-<artifactId>qa-shared</artifactId>
 
-<version>0.0.50-SNAPSHOT</version>
-
-<exclusions>
-
-<exclusion>
-
-<groupId>milyn</groupId>
-
-<artifactId>opencsv</artifactId>
-
-</exclusion>
 
 <exclusion>
 
@@ -77,35 +63,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 
 </dependency>
 
-<dependency>
 
-<groupId>org.disney.dosqa.social.friends.api.client</groupId>
 
-<artifactId>friends-api-rest-client</artifactId>
-
-<version>0.0.1-SNAPSHOT</version>
-
-</dependency>
-
-<dependency>
-
-<groupId>org.disney.dosqa.social.family</groupId>
-
-<artifactId>family-service</artifactId>
-
-<version>1.0-SNAPSHOT</version>
-
-</dependency>
-
-<dependency>
-
-<groupId>org.igniterealtime.smack</groupId>
-
-<artifactId>smackx-debug</artifactId>
-
-<version>3.2.1</version>
-
-</dependency>
 
 <dependency>
 
@@ -155,14 +114,5 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 
 </dependency>
 
-<dependency>
-
-<groupId>org.disney.dosqa.social.family-services</groupId>
-
-<artifactId>family-services</artifactId>
-
-<version>1.0-SNAPSHOT</version>
-
-</dependency>
 </dependencies>
 </project>
