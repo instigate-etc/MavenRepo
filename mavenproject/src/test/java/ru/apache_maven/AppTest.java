@@ -12,6 +12,9 @@ import org.testng.Assert;
 public class AppTest 
     extends TestCase
 {
+
+
+
     private String var = System.getProperty("variable");
     private String name="Good";
 
@@ -42,4 +45,12 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+  @Test
+  public void testSeriousness() throws Exception {
+    assert SeriousComponent.testSeriousness("SAD");
+    assert SeriousComponent.testSeriousness("SERIOUS");
+    assert SeriousComponent.testSeriousness("CRAZY");
+    assert !SeriousComponent.testSeriousness("FUNNY");
+  }
 }
